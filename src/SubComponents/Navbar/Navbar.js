@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import { NavLink } from 'react-router-dom'
-import AboutUs from '../../Components/AboutUs';
 
 import styled from "styled-components"; 
 
@@ -48,11 +47,9 @@ function Navbar() {
             <FontAwesomeIcon className='icn' icon={faCaretDown} />
           </button>
           <div className="dropdown-content">
-
             <a href="Events/sundaySchool.html">Sunday School</a>
-            <a href="Events/youth.html">Youth Ministry</a>
-            <a href="Events/womens.html">Women's Ministry</a>
-
+            <LinkNav to="/youth" className="menu-btn">Youth Ministry</LinkNav>
+            <LinkNav to="/women" className="menu-btn">Women's Ministry</LinkNav>
             <a href="Events/oathCeremony.html">Bible Study</a>
             <a href="Events/more.html">Prayer Ministry</a>
           </div>
