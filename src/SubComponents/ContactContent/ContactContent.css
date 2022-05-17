@@ -1,0 +1,191 @@
+.contact{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+}
+.contact .title h2{
+    color: white;
+}
+.contact .contact-content{
+    margin:0 60px;
+}
+.contact .contact-content .ccolumn {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact .contact-content .cleft p {
+    text-align: justify;
+}
+
+.contact .contact-content .cleft .icon {
+    margin: 10px 0;
+}
+
+.contact .contact-content .crow {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.contact .contact-content .crow-social {
+    padding-bottom: 30px;
+}
+
+.contact .contact-content .crow .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .crow i {
+    font-size: 30px;
+}
+
+.contact i {
+    font-size: 30px;
+}
+
+.contact .contact-content .crow .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .crow .info .sub-title {
+    color: rgb(134, 134, 134);
+}
+
+.contact .cright form .fields {
+    display: flex;
+}
+
+.contact .cright form .field,
+.contact .ccright form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .cright form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contact .cright form .name {
+    margin-right: 10px;
+}
+
+.contact .cright form .email {
+    margin-left: 10px;
+}
+
+.contact .cright form .field input,
+.contact .cright form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.contact .cright form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.socialIcons{
+    font-size: 30px;
+    color: var(--main--color);
+}
+/*
+#address {
+    color: red;
+}
+
+#phone {
+    color: #009E60;
+    transform: rotate(90deg);
+}
+#facebook {
+    color: #4267B2;
+}
+
+#youtube {
+    color: #FF0000;
+    color: var(--main--color);
+}
+
+#instagram {
+    color: #bc2a8d;
+    color: var(--main--color);
+}
+
+#twitter {
+    color: #00acee;
+    color: var(--main--color);
+}
+
+#whatsapp{
+    color: green;
+    color: var(--main--color);
+}
+
+#email{
+    color: #EA4335;
+    color: var(--main--color);
+} */
+
+
+.contact .icons .crow a:hover {
+    font-size: 45px;
+}
+.contact .contact-content .icons .text{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+@media(max-width:991px) {
+    
+    @media (max-width:947px) {
+        .contact .contact-content .icons .crow{
+            padding: 10px 0;
+        }
+        .contact .contact-content .icons .text{
+            margin-top: 40px;
+        }
+        .contact .contact-content{
+            margin:0 10px;
+        }
+    }
+
+    
+    @media(max-width:700px){
+        .crow-address {
+            margin-bottom: 30px;
+        }
+        .crow-phonemail{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+        .crow-phonemail .info{
+            width: 100%;
+            margin-bottom: 20px;
+            
+        } 
+        .contact-content{
+            text-align: left;
+        }
+    }
+    @media(max-width:500px) {
+        
+    }
+}
+

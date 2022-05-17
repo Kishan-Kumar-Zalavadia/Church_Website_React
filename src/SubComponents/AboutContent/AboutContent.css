@@ -1,0 +1,26 @@
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+
+.about .about-content p{
+    font-weight: 500;
+    text-align: justify;
+    margin: 10px 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.churchHistory{
+    background-position: center;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    height: auto;
+}
+
