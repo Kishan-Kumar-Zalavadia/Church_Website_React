@@ -1,7 +1,7 @@
 import React from 'react'
 import './Pastor.css'
 import P1 from '../images/Dr. Boda Solomon.jpg'
-import P2 from '../images/Pravin.jpg'
+import P2 from '../images/Pravin.jpeg'
 
 function Pastor() {
   return (
