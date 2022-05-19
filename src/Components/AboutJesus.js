@@ -1,15 +1,15 @@
 import React from 'react'
-import AboutUsContent from '../SubComponents/AboutContent/AboutUsContent'
+import AboutJesusContent from '../SubComponents/AboutContent/AboutJesusContent'
 import Footer from '../SubComponents/Footor/Footer'
 import Navbar from '../SubComponents/Navbar/Navbar'
-const AboutUs = () => {
+const AboutJesus = () => {
   return (
     <>
       <Navbar/>
-      <AboutUsContent/>
+      <AboutJesusContent/>
       <Footer/>
     </>
   )
 }
 
-export default AboutUs
+export default AboutJesus

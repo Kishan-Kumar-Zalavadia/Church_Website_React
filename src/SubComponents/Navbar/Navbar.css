@@ -17,6 +17,8 @@
 
 .navbar img{
     padding-left: 5vw;
+    height: 60px;
+    width: 180px;
 }
 
 .navbar .menu li {

@@ -33,7 +33,7 @@ function Service() {
               <FontAwesomeIcon icon={faPrayingHands} id='prayerHand'></FontAwesomeIcon>
               <div className="text">Sunday School</div>
               <div>Sunday</div><br />
-              <p>8:00 am / 9:30 am - 12:30 pm</p>
+              <p>8:00 am - 9:30 am <br/><br/> 10:30am - 12:30 pm</p>
               <br />
             </div>
           </div>
@@ -51,7 +51,7 @@ function Service() {
               <FontAwesomeIcon icon={faPrayingHands} id='prayerHand'></FontAwesomeIcon>
               <div className="text">Youth Fellowship</div>
               <div>Sunday</div><br />
-              <p>6:30 pm - 8:30 pm</p>
+              <p>6 pm - 8 pm</p>
               <br />
             </div>
           </div>
@@ -86,7 +86,7 @@ function Service() {
             <div className="box">
               <FontAwesomeIcon icon={faPrayingHands} id='prayerHand'></FontAwesomeIcon>
               <div className="text">All Night Prayer</div>
-              <div>2nd Friday</div><br />
+              <div>Every Month 2nd Friday</div><br />
               <p>10:00 pm - 5:00 am</p>
               <br />
             </div>

@@ -33,14 +33,8 @@ function Navbar() {
       </nav>
       <div className={isMobile ? "topnav-mobile" : "topnav"} id="myTopnav">
         <LinkNav to="/" className="menu-btn" id="active">Home</LinkNav>
-        <div className="dropdown">
-          <button className="dropbtn">About Jesus
-            <FontAwesomeIcon className='icn' icon={faCaretDown} />
-          </button>
-          <div className="dropdown-content">
-            <LinkNav to="/about" className="menu-btn">About Us</LinkNav>
-          </div>
-        </div>
+        <LinkNav to="/jesus" className="menu-btn" id="active">About Jesus</LinkNav>
+        <LinkNav to="/about" className="menu-btn" id="active">About Us</LinkNav>
         <LinkNav to="/vision" className="menu-btn">Vision &amp; Mission</LinkNav>
         <div className="dropdown">
           <button className="dropbtn">Ministries

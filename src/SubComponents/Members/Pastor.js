@@ -21,7 +21,7 @@ function Pastor() {
               <div className="box">
                 <img src={P2} alt="" srcSet />
                 <div className="text">Rev. Pravin Kumar</div>
-                <p>Assistant Pastor</p>
+                <p>Associate Pastor</p>
                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae.</p> */}
               </div>
             </div>

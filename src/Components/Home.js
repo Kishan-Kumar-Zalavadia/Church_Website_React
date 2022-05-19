@@ -14,7 +14,7 @@ function Home() {
           <HomeContent/>
           <Service/>
           <Pastor/>
-          <Office/>
+          {/* <Office/> */}
           <Footer/>
       </div>
     

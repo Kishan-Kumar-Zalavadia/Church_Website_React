@@ -24,3 +24,43 @@
     height: auto;
 }
 
+
+/*About Jesus*/
+
+
+.Image img{
+    width: 100%;
+    height: auto;
+}
+.quote{
+    height: auto;
+    text-align: center;
+    /* background-image: url(../images/bg.jpg); */
+    background-color: var(--main--color);
+    padding: 10px 0px;
+}
+
+.jesus-content{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 10px;
+}
+.jesus-content h3{
+    margin-top: 0px;
+    text-align: center;
+}
+.max-width2{
+    background-color: aqua;
+    width: 100%;
+}
+.about-jesus{
+    background-color: aqua;
+}
+
+@media(max-width:991px) {
+    .jesus-content{
+        font-size: 15px;
+    }
+}
