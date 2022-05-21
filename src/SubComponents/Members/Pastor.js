@@ -12,7 +12,7 @@ function Pastor() {
             <div className="card">
               <div className="box">
                 <img src={P1} alt="" srcSet />
-                <div className="text">Rev. Dr. Boda Solomon</div>
+                <div className="text">Rev. Dr. Boda. Solomon Senior.</div>
                 <p>Pastor</p>
                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae.</p> */}
               </div>
