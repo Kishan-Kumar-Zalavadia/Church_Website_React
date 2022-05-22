@@ -5,7 +5,7 @@ import Navbar from '../SubComponents/Navbar/Navbar'
 const AboutJesus = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar jesus="active"/>
       <AboutJesusContent/>
       <Footer/>
     </>

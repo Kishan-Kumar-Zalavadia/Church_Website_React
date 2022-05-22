@@ -11,7 +11,7 @@ import styled from "styled-components";
 const LinkNav=styled(NavLink)``
 
 
-function Navbar() {
+function Navbar(props) {
   const [isMobile, setIsMobile] = useState(false);
   {/*const handleClick = () =>{ setClick(!click);
    };*/}
@@ -32,24 +32,24 @@ function Navbar() {
         </div>
       </nav>
       <div className={isMobile ? "topnav-mobile" : "topnav"} id="myTopnav">
-        <LinkNav to="/" className="menu-btn" id="active">Home</LinkNav>
-        <LinkNav to="/jesus" className="menu-btn" id="active">About Jesus</LinkNav>
-        <LinkNav to="/about" className="menu-btn" id="active">About Us</LinkNav>
-        <LinkNav to="/vision" className="menu-btn">Vision &amp; Mission</LinkNav>
+        <LinkNav to="/" className="menu-btn" id={props.home}>Home</LinkNav>
+        <LinkNav to="/jesus" className="menu-btn" id={props.jesus}>About Jesus</LinkNav>
+        <LinkNav to="/about" className="menu-btn" id={props.us}>About Us</LinkNav>
+        <LinkNav to="/vision" className="menu-btn" id={props.vision}>Vision &amp; Mission</LinkNav>
         <div className="dropdown">
-          <button className="dropbtn">Ministries
+          <button className="dropbtn" id={props.ministry}>Ministries
             <FontAwesomeIcon className='icn' icon={faCaretDown} />
           </button>
           <div className="dropdown-content">
             <a href="Events/sundaySchool.html">Sunday School</a>
-            <LinkNav to="/youth" className="menu-btn">Youth Ministry</LinkNav>
-            <LinkNav to="/women" className="menu-btn">Women's Ministry</LinkNav>
+            <LinkNav to="/youth" className="menu-btn" id={props.youth}>Youth Ministry</LinkNav>
+            <LinkNav to="/women" className="menu-btn" id={props.women}>Women's Ministry</LinkNav>
             <a href="Events/oathCeremony.html">Bible Study</a>
             <a href="Events/more.html">Prayer Ministry</a>
           </div>
         </div>
 
-        <LinkNav to="/contact" className="menu-btn">Contact Us</LinkNav>
+        <LinkNav to="/contact" className="menu-btn" id={props.contact}>Contact Us</LinkNav>
 
         <a href="javascript:void(0);" style={{ fontSize: '15px' }} className="icon" onClick={() => myFunction()}>☰</a>
         <button className='mobile-menu-icon'>{isMobile ? <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon> : <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>}</button>

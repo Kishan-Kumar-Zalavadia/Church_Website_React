@@ -6,7 +6,7 @@ import Navbar from '../SubComponents/Navbar/Navbar'
 const Contact = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar contact="active"/>
       <ContactContent/>
       <Footer/>
     </>

@@ -5,7 +5,7 @@ import Navbar from '../SubComponents/Navbar/Navbar'
 const AboutUs = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar us="active"/>
       <AboutUsContent/>
       <Footer/>
     </>

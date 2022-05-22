@@ -8,6 +8,9 @@
     transition: all 0.3s ease;
 }
 
+#active{
+    color: var(--main--color);
+}
 
 .navbar .max-width {
     display: flex;

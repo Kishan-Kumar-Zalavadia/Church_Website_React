@@ -6,7 +6,7 @@ import Footer from '../SubComponents/Footor/Footer'
 const Women = () => {
   return (
     <>
-        <Navbar/>
+        <Navbar women="active" ministry="active"/>
         <WomenContent/>
         <Footer/>
       </>

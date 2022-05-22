@@ -5,12 +5,14 @@ import Service from '../SubComponents/Service/Service'
 import Pastor from '../SubComponents/Members/Pastor'
 import Office from '../SubComponents/Members/Office'
 import Footer from '../SubComponents/Footor/Footer'
+import { useState } from "react";
+
 
 
 function Home() {
   return (
       <div>
-          <Navbar/>
+          <Navbar home="active"/>
           <HomeContent/>
           <Service/>
           <Pastor/>
