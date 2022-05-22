@@ -15,7 +15,8 @@ const Service_data = [
       id: 3,
       name: "Sunday School",
       day: "Sunday",
-      time: "8:00 am - 9:30 am, 10:30am - 12:30 pm"
+      time: "8:00 am - 9:30 am",
+      time2: "10:30am - 12:30 pm"
     },
     {
       id: 4,

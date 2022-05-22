@@ -18,6 +18,7 @@ function Service() {
                 <div className="text">{value.name}</div>
                 <div>{value.day}</div><br />
                 <p>{value.time}</p>
+                <p>{value.time2}</p>
                 <br />
               </div>
             </div>
