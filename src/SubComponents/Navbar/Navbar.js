@@ -41,11 +41,11 @@ function Navbar(props) {
             <FontAwesomeIcon className='icn' icon={faCaretDown} />
           </button>
           <div className="dropdown-content">
-            <a href="Events/sundaySchool.html">Sunday School</a>
+            <LinkNav to="/" className="menu-btn" id={props.sunday}>Sunday School</LinkNav>
             <LinkNav to="/youth" className="menu-btn" id={props.youth}>Youth Ministry</LinkNav>
             <LinkNav to="/women" className="menu-btn" id={props.women}>Women's Ministry</LinkNav>
-            <a href="Events/oathCeremony.html">Bible Study</a>
-            <a href="Events/more.html">Prayer Ministry</a>
+            <LinkNav to="/" className="menu-btn" id={props.bible}>Bible Study</LinkNav>
+            <LinkNav to="/" className="menu-btn" id={props.prayer}>Prayer Ministry</LinkNav>
           </div>
         </div>
 
