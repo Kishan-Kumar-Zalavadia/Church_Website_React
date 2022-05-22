@@ -21,6 +21,7 @@
     justify-content: center;
 }
 
+
 .teams .carousel .card {
     background-color: #222;
     border-radius: 6px;
@@ -71,8 +72,6 @@
 }
 
 
-
-
 @media(max-width:991px) {
     .teams .carousel .card {
         width: 300px;
@@ -89,5 +88,3 @@
         margin-bottom: 30px;
     }
 } 
-
-
