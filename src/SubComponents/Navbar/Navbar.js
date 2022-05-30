@@ -35,7 +35,7 @@ function Navbar(props) {
         <LinkNav to="/" className="menu-btn" id={props.home}>Home</LinkNav>
         <LinkNav to="/jesus" className="menu-btn" id={props.jesus}>About Jesus</LinkNav>
         <LinkNav to="/about" className="menu-btn" id={props.us}>About Us</LinkNav>
-        <LinkNav to="/vision" className="menu-btn" id={props.vision}>Vision &amp; Mission</LinkNav>
+        <LinkNav to="/" className="menu-btn" id={props.vision}>Vision &amp; Mission</LinkNav>
         <div className="dropdown">
           <button className="dropbtn" id={props.ministry}>Ministries
             <FontAwesomeIcon className='icn' icon={faCaretDown} />

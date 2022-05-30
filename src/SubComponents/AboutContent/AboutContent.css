@@ -5,6 +5,9 @@
     /*justify-content: space-between;*/
 }
 
+.Jesus{
+    background-color: rgb(195, 195, 195);
+}
 
 .about .about-content p{
     font-weight: 500;
@@ -54,9 +57,6 @@
 .max-width2{
     background-color: aqua;
     width: 100%;
-}
-.about-jesus{
-    background-color: aqua;
 }
 
 @media(max-width:991px) {
